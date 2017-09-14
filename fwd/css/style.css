@@ -145,14 +145,26 @@ img{
 
 .photos figure{
   position: relative;
-  max-width: 500px;
+  max-width: 100%;
   height: auto;
+}
+
+figure p{
+  padding-bottom: 5px;
+  margin-top: 6px;
+  font-size: 1em;
 }
 
 footer{
   background-color: rgb(176,145,91);
   text-align: center;
 }
+hr{
+  margin-top: 3px;
+  margin-bottom: 3px;
+border-color: rgb(239,240,235);
+}
+
 h5{
   font-family: 'Raleway', sans-serif;
   color: rgb(240,217,201);
@@ -170,4 +182,49 @@ h5{
 .icons i{
   font-size: 1.5em;
   color: rgb(240,217,201);
+}
+
+
+ul{
+  display: inline-flex;
+  text-decoration: none;
+  width: 50%;
+  padding-left: 25%;
+  padding-right: 25%;
+  justify-content: space-around;
+  background-color: rgb(240,217,201);
+  margin-bottom: 0;
+
+}
+
+li{
+  font-family: 'Raleway', sans-serif;
+  display: block;
+  text-decoration: none;
+  background-color: rgb(240,217,201);
+  padding: 10px;
+   -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+li:hover{
+  background-color:rgb(36,36,36);
+  color: rgb(176,145,91);
+}
+
+.selected{
+  background-color:rgb(36,36,36);
+  color: rgb(176,145,91);
+}
+
+/*This section is for Lab ID's*/
+#doubleclick{
+  padding: 30px;
+}
+
+#mouseover{
+  padding:30px;
 }
