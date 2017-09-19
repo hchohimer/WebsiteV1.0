@@ -101,6 +101,11 @@ border-right: 5px double rgb(176,145,91);
 border-bottom: 5px groove rgb(176,145,91);
 }
 
+.makegold{
+color: rgb(176,145,91);
+
+}
+
 /*
 .orangeborder{
   border-left: 5px groove rgb(255,157,0);

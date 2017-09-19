@@ -23,13 +23,13 @@ if (page_title.innerHTML == "FWD Journal"){
 highlight_page();
 
 
-
+function fade_in_content(){
+  // $("#posts").css("opacity", 1)
+   $("#posts").fadeTo(1500, 1)
+  console.log("ran fadeIN");
+}
 $(document).ready(function() {
-  function fade_in_content(){
-    $("#posts").hide();
-    $("#posts").fadeIn('slow');
-    console.log("ran fadeIN");
-  }
+
 fade_in_content();
 
 $("#doubleclick").dblclick(function(){
