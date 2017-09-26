@@ -226,6 +226,10 @@ li:hover{
 }
 
 /*This section is for Lab ID's*/
+#posts{
+  opacity: 0;
+}
+
 #doubleclick{
   padding: 30px;
 }

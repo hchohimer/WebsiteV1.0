@@ -36,14 +36,12 @@ $("#doubleclick").dblclick(function(){
   alert("Sponsored by Gorillas for Outstanding Design.");
 });
 
-$("#mouseover").mouseenter(function(){
-  $("#posts").fadeOut('fast');
+$("#mouseover").hover(function(){
+  $("#posts").fadeTo('fast', 0);
 });
 $("#mouseover").mouseleave(function(){
-  $("#posts").fadeIn('fast');
+  $("#posts").fadeTo('fast', 1);
 });
-
-
 
 
 
