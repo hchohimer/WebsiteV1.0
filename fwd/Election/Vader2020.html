@@ -8,7 +8,10 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:200,400,600|Roboto+Slab" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="election.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.14/p5.js"></script>
-    <script src="election.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="https://use.typekit.net/bes1qva.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
   </head>
 
   <body>
@@ -16,8 +19,116 @@
 <div id="screen">
 
 </div>
+
 </header>
+<section class="bodyfont">
+  <h2 class="headfont">What <u>IS</u> the power of the Dark Side?</h2>
+  <p>The Dark Side's mission is to bring peace order and the imperial way back to the galaxy. The republic has been losing for a long time now, with the radical Jedi terrorists spouting their propaganda, the courrupt senete officials swamping our goverment, and the oligarcic, wealthy, bantha poo-doos' who run the trade federation, it't a wonder the galaxy is still here. Our mission is to make the galaxy civilized again, we will bring order and law to mankind throughout the galaxy!</p>
+</section>
+<br>
+<br>
+<section class="quiz" >
+  <h2>Are you Dark Side Material?</h2>
+  <ol>
+    <li id="question1">
+      <h5>Who wrote the first Star Wars Film?</h5>
+      <ul class="choices">
+        <li class="answer1 ans">Emporer Palpatine, may his glory reign for one thousand years!</li>
+        <li class="answer2 ans">George Lucas</li>
+        <li class="answer3 ans">J.J. Abrams</li>
+        <li class="answer4 ans">Alan Dean Foster</li>
+      </ul>
+    </li>
+    <li id="question2">
+      <h5>Can you speak Wookie?</h5>
+      <ul class="choices">
+        <li class="answer1 ans">Those things can talk?</li>
+        <li class="answer2 ans">I am fluent in over six million langueges.</li>
+        <li class="answer3 ans">Yes, I hate humans and perfer consorting with with the wrong sort.</li>
+        <li class="answer4 ans">No, but I've punched a guy who did.</li>
+      </ul>
+    </li>
+    <li id="question3">
+      <h5>Should radical Jedi Terrorists be allowed in our Galaxy?</h5>
+      <ul class="choices">
+        <li class="answer1 ans">Of course not.</li>
+        <li class="answer2 ans">Those cur should be purged from existance.</li>
+        <li class="answer3 ans">They stole our children, but I think they should be allowed to live anyway.</li>
+        <li class="answer4 ans">I support Jedi radicalism/terror and we should give in to their demands.</li>
+      </ul>
+    </li>
+    <li id="question4">
+      <h5>Following the Horror of the Death Star, what should our empire do about the Rebels</h5>
+      <ul class="choices">
+        <li class="answer1 ans">We will find the mastermind Mon Motha, and we will kill them!</li>
+        <li class="answer2 ans">The rebels are more powerful, we should do nothing and hope they go away.</li>
+        <li class="answer3 ans">We should Base Delta Zero the whole outer rim, the lot of em.</li>
+        <li class="answer4 ans">We should occupy every outer rim world and change their regimes.</li>
+      </ul>
+    </li>
+    <li id="question5">
+      <h5>Did you like Jar Jar Binks?</h5>
+      <ul class="choices">
+        <li class="answer1 ans">Ha Ha, that senator was funny!</li>
+        <li class="answer2 ans">I was young and stupid and didnt completly hate him.</li>
+        <li class="answer3 ans">His jokes were flat, but I didn't realize he was hated.</li>
+        <li class="answer4 ans">Kill him, and Kill all of his kind for good measure.</li>
+      </ul>
+    </li>
+    <li id="question6">
+      <h5>How should we remember the Clone Wars</h5>
+      <ul class="choices">
+        <li class="answer1 ans">As a couragous defense of the republic citizens against evil, Xeno, big corperations.</li>
+        <li class="answer2 ans">As a time mankind stood strong against a tide of bloodthirsty otherworlders.</li>
+        <li class="answer3 ans">As the final proof the the Jedi's ultimate goal, the distruction of the civilization.</li>
+        <li class="answer4 ans">As a dark time of fear, distrust, and terror that shows the Weakness of a republic.</li>
+      </ul>
+    </li>
+    <li id="question7">
+      <h5>How did you celebrate when the Jedi were purged and the war ended.</h5>
+      <ul class="choices">
+        <li class="answer1 ans">I was in shock, I just couldn't believe it was over.</li>
+        <li class="answer2 ans">It was the happiest moment of my life.</li>
+        <li class="answer3 ans">I am soft and cried for the younglings corrupted by the Jedi who needed to be purged too.</li>
+        <li class="answer4 ans">I was one of the millions at the Great Dantooine MegaRave.</li>
+      </ul>
+    </li>
+    <li id="question8">
+      <h5>If you had a Lightsaber, what color would it be?</h5>
+      <ul class="choices">
+        <li class="answer1 ans">Red.</li>
+        <li class="answer2 ans">Red on both ends.</li>
+        <li class="answer3 ans">Red with a red handguard.</li>
+        <li class="answer4 ans">I want two red ones.</li>
+      </ul>
+    </li>
+    <li id="question9">
+      <h5>Which non-human creatures should gain imperial status.</h5>
+      <ul class="choices">
+        <li class="answer1 ans">Twi'leks should be allowed in the cities.</li>
+        <li class="answer2 ans">Ewoks are too cute to be slaves.</li>
+        <li class="answer3 ans">The Mon Calimari are poor tasting livestock, but might be good waste management personel.</li>
+        <li class="answer4 ans">Gungans, they understand the concept of seperating peoples for their own good.</li>
+      </ul>
+    </li>
+    <li id="question10">
+      <h5>Which was your favorite starwars series.</h5>
+      <ul class="choices">
+        <li class="answer1 ans">The prequels had the best graphics.</li>
+        <li class="answer2 ans">The original series, of course.</li>
+        <li class="answer3 ans">I like all of them equally.</li>
+        <li class="answer4 ans">The new disney ones are amazing.</li>
+      </ul>
+    </li>
+  </ol>
+</section>
 
 
+
+
+
+<div id= sidebar1></div>
+<div id= sidebar2></div>
+    <script src="election.js"></script>
   </body>
 </html>

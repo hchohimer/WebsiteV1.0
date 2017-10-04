@@ -57,3 +57,48 @@ function mouseClicked() {
   console.log('ellipsed');
 
 }
+
+ setTimeout( sidebars, 100);
+ setTimeout( sidebars, 150);
+ setTimeout( sidebars, 200);
+ setTimeout( sidebars, 350);
+ setTimeout( sidebars, 1000);
+
+$( document ).ready(function() {
+//--------------------------------functions
+  sidebars();
+
+
+  //--------------------------------events
+$( window ).resize(function() {
+  sidebars();
+  console.log('sidebars');
+
+
+  });
+});
+
+//setInterval(function(){ sidebars(); }, 1000);
+
+function sidebars(){
+  //reset's the height so collecting the height doesnt break
+  $( '#sidebar1' ).height(400);
+  $( '#sidebar2' ).height(400);
+  //collecting height of page
+  htmlheight = $( document ).height();
+console.log(htmlheight);
+//setting height of side bar to page height;
+  $( '#sidebar1' ).height(htmlheight);
+  $( '#sidebar2' ).height(htmlheight);
+}
+
+
+
+
+
+
+
+
+
+
+//---------------------------Quiz!
