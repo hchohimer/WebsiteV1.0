@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>MARS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.14/p5.js"></script>
+                  <!--libraries^ -->
+    <script type="text/javascript" src="project2-script.js"></script>
+    <link rel="stylesheet" href="project2-stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
+                  <!-- styling and scripts^-->
+  </head>
+  <body id="bodyid">
+
+    <header>
+      <h1>Curiosity</h1>
+      <h5>Explore the Red Planet! <br> Today's sol:</h5>
+      <h5 id="todaysol"></h5>
+    </header>
+
+<form class="navigation">
+  <button type="button" name="button" class="nav" onclick="searchsol(-1)">&#10094 Previous</button>
+  sol: <input id="inputfield" type="number" name="sol" value="1269">
+  <input type="button" value="Submit" onclick="searchsol(0)">
+  <button type="button" name="button" class="nav" onclick="searchsol(1)">Next &#10095</button>
+</form>
+<button type="button" name="button" class="randombutton" onclick="randomize()">Random Sol</button>
+
+<section class="section1">
+  <figure>
+    <h5>Front Hazard Camera</h5>
+    <img id="fhazphoto" src="" alt="a photo from the mars rover Curiosity" >
+    <button type="button" name="button" class="prev top" onclick="slideshow(-1)">&#10094</button>
+    <button type="button" name="button" class="next top" onclick="slideshow(1)">&#10095</button>
+  </figure>
+  <figure>
+    <h5>Mars Hand Lens Imager</h5>
+    <img id="mahliphoto" src="" alt="a photo from the mars rover Curiosity" >
+    <button type="button" name="button" class="prev bottom" onclick="slideshow(-2)">&#10094</button>
+    <button type="button" name="button" class="next bottom" onclick="slideshow(2)">&#10095</button>
+  </figure>
+</section>
+
+<section class="section2">
+  <figure>
+    <h5>Mast Camera</h5>
+    <img id="mastphoto" src="" alt="a photo from the mars rover Curiosity" >
+    <button type="button" name="button" class="prev middle" onclick="slideshow(-3)">&#10094</button>
+    <button type="button" name="button" class="next middle" onclick="slideshow(3)">&#10095</button>
+  </figure>
+</section>
+<section class="section3">
+  <figure>
+    <h5>Rear Hazard Camera</h5>
+    <img id="rhazphoto" src="" alt="a photo from the mars rover Curiosity" >
+    <button type="button" name="button" class="prev top" onclick="slideshow(-4)">&#10094</button>
+    <button type="button" name="button" class="next top" onclick="slideshow(4)">&#10095</button>
+  </figure>
+  <figure>
+    <h5>	Navigation Camera</h5>
+    <img id="navcamphoto" src="" alt="a photo from the mars rover Curiosity" >
+    <button type="button" name="button" class="prev bottom" onclick="slideshow(-5)">&#10094</button>
+    <button type="button" name="button" class="next bottom" onclick="slideshow(5)">&#10095</button>
+  </figure>
+</section>
+  </body>
+</html>

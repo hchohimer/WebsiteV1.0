@@ -1,0 +1,42 @@
+/*
+font-family: 'Raleway', sans-serif;
+font-family: 'Open Sans', sans-serif;
+
+*/
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  /*------------------------------------------------------*/
+  /*star pattern found here http://lea.verou.me/css3patterns/*/
+  background-color:black;
+  background-image:
+  radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 10px),
+  radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 5px),
+  radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 10px),
+  radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 5px),
+  radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 10px),
+  radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 5px);
+  background-size: 750px 750px, 550px 550px, 450px 450px, 350px 350px, 250px 250px, 150px 150px;
+  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px, 110px 200px;
+  /*---------------------------------------------------------*/
+}
+
+header{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: whitesmoke;
+}
+
+figure{
+  text-align: center;
+  background-color: whitesmoke;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 95%;
+  margin-left: 2.5%;
+}
+
+img{
+  width: 80%;
+  height: auto;
+}
