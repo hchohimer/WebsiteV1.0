@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title id="title">Studio Space</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:200,400,600|Roboto+Slab" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Studio Space</h1>
+    <!-- <ul>
+        <a href="labs.html"><li id="tab1">Labs</li></a>
+        <a href="projects.html"><li id="tab2">Projects </li></a>
+        <a href="index.html"><li id="tab3">Journal</li></a>
+      </ul> -->
+  </header>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <article class="post borderright">
+    <h4>Midterm Project</h4>
+    <p>This was an interesting project to undertake. My initial plan was to play around with the NASA API to let someone look up any type of disaster and see where on the globe those disasters were occurring. I just wanted to visualize the data that NASA
+      was collecting. But after I started this project is when the major west coast fires started to hit the news, especially the ones in California. I got quite interested in the fires specifically and when I built my first version of the site, I used
+      the google API to plot down the location of the fires specifically, and I was shocked. There were over 70 active fires that NASA was looking at, and most of them were in the U.S. I got interested in fire science and found out that for it’s land
+      size, the U.S. does have a disproportionate number of fires, and that’s when the project went from considering disasters, to considering fires and fire related occurrences specifically.</p>
+
+    <p>So, for round 2 of the project I focused my efforts on making the page fire themed, creating fire icons for the pins, and making a heatmap for the fires. The icon worked well, but as I worked on the heatmap, I realized that the data I was getting
+      from NASA did not have fire size. But after seeing how many fires were in California, and how most of those fires were merged into a massive fire zone, I created the heatmap and assigned the same magnitude to each fire. This succeeded in making
+      the fires clearly marked, and in showing the possibly affected areas of the fire. After the second critique, I worked on adding more data to the display. First, I looked for population data, and wind data. I spent a lot of time working on this,
+      mostly on the wind data which I was collecting from here: https://earth.nullschool.net/.</p>
+
+    <p>In the end, I could not get the wind data to integrate into the google maps API. I started looking for alternative data to add to the project and ended up finding air quality data. This was a happy accident as the air quality data is the sum of collected
+      data from around the world, collected ever 6 hours and posted online, and their API came with some google compatibility. So, I added the air quality data, and the final resulting website shows some shocking information. I had never really appreciated
+      that the U.S government passed a Clean Air Act until the day I looked at the summarized air quality data for the rest of the world. The U.S air quality is an order of magnitude better than many other countries, and It was shocking to see.</p>
+
+    <p> Over all this was a great project that I am glad to have undertaken. I learned a lot about API’s and about the difficulty with utilizing different API’s, especially when they are incompatible. To take this project further in the future, I would want
+      to look for and look up the population data collected globally and see if I would be able to chart that in a recognizable way. Along the way I was able to work on my skills at data visualization, and I learned something new from my own visualizations.
+      </p>
+
+      <p>A link to the project, some images of the project, and the Gist file below.</p>
+
+    <div class="photos">
+      <div class="flexbox">
+        <figure>
+          <a href="burning.html" class="makegold">click here to see the project!</a>
+          <br>
+          <br>
+          <img src="img/Icon_redfire.png" alt="a red fire icon">
+          <p>My fire icon full sized, I needed to shrink it down because google maps displays all custom icons as their actual size. The final icon is 20 pixels wide.</p>
+        </figure>
+        <figure>
+          <img src="img/Firereport.png" alt="A screenshot of the webpage">
+        </figure>
+
+
+        <script src="https://gist.github.com/hchohimer/1470e9e695f0162c43f31579a0a90ee4.js"></script>
+      </div>
+    </div>
+  </article>
+
+
+  <footer>
+    <h5>Social Media</h4>
+        <div class="icons">
+        <a href="https://www.facebook.com/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+        <a href="https://www.twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i>
+        <a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i>
+        </div>
+    </footer>
+
+
+  </body>
